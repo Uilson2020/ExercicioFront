@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Exercicio1</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Formulario de venda de medicamentos</a>
+        </div>
+      </nav>
+
+
+      <main class="container">
+        <form id="Formulario" class="row mt-6">
+            <div class="p-4">
+
+                <div class="form-group">
+                    <label for="CRMMedico">CRM</label>
+                    <input class="form-control" type="number" id="CRMMedico" name="CRMMedico"
+                        placeholder="Digite o seu CRM">
+                </div>
+
+                <div class="form-group">
+                    <label for="nomeUsuario">Nome do medico</label>
+                    <input class="form-control" type="text" id="nomeUsuario" name="nomeUsuario"
+                        placeholder="Digite o nome do medico">
+                </div>
+
+                <div class="form-group">
+                    <label for="dataReceita">Data da receita</label>
+                    <input class="form-control" type="date" id="dataReceita" name="dataReceita"
+                        placeholder="Data da receita">
+                </div>
+
+                <div class="form-group">
+                    <label for="quantidadeCaixas">Quantidade de caixas</label>
+                    <input class="form-control" type="number" id="quantidadeCaixas" name="quantidadeCaixas"
+                        placeholder="Digite a quantidade">
+                </div>
+
+                <div class="form-group">
+                    <label for="nomePaciente">Nome do paciente</label>
+                    <input class="form-control" type="text" id="nomePaciente" name="nomePaciente"
+                        placeholder="Digite o nome do paciente">
+                </div>
+
+                <div class="form-group">
+                    <label for="CPFPaciente">CPF do paciente</label>
+                    <input class="form-control" type="number" id="CPFPaciente" name="CPFPaciente"
+                        placeholder="Digite o CPF do paciente">
+                </div>
+
+                <div class="form-group">
+                    <label for="dataNascimento">Data nascimento</label>
+                    <input class="form-control" type="date" id="dataNascimento" name="dataNascimento"
+                        placeholder="Digite a data de nascimento">
+                </div>
+
+                <label for="customRadioInline1">Gênero</label>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline1">Masculino</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline2">Feminino</label>
+                  </div>
+
+                <form class="form-inline">
+                    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Tipo de envio</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                      <option disabled selected>Escolha um tipo</option>
+                      <option value="1">Anexar arquivo</option>
+                      <option value="2">Whatsapp</option>
+                      <option value="3">E-mail</option>
+                    </select>
+                  
+                    <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                      <input type="checkbox" class="custom-control-input" id="customControlInline">
+                      <label class="custom-control-label" for="customControlInline">Lembrar preferência</label>
+                    </div>
+                  
+                    <button type="submit" class="btn btn-primary my-1">Enviar</button>
+                  </form>
+
+            </div>
+        </form>
+    </main>
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+</body>
+</html>
